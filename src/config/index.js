@@ -1,0 +1,1 @@
+export const gitPath = 'LQS5858/express-awilix-templates'

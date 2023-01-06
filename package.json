@@ -1,0 +1,46 @@
+{
+  "name": "einyun-vue3-cli",
+  "version": "1.0.0",
+  "description": "einyun脚手架",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && cross-env NODE_ENV=production  && babel src --out-dir dist",
+    "watch": "npm run build --watch"
+  },
+  "bin": {
+    "einyun-vue3-cli": "dist/bin/www.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "express",
+    "awilix",
+    "nodejs"
+  ],
+  "author": "ricardo",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "child_process": "^1.0.2",
+    "commander": "^6.2.1",
+    "cross-env": "^7.0.3",
+    "download-git-repo": "^3.0.2",
+    "ini": "^2.0.0",
+    "inquirer": "^7.3.3",
+    "log-symbols": "^4.0.0",
+    "ora": "^5.1.0",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2"
+  },
+  "engines": {
+    "node": "12.16.0"
+  }
+}
