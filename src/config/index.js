@@ -1,1 +1,1 @@
-export const gitPath = 'direct:http://git.hypersmart.ltd/einyun/eip/web/x7-manage-vue3#ein-template-reactive'
+export const gitPath = 'direct:http://git.hypersmart.ltd/einyun/eip/web/einyun-vue3-reactive-template'

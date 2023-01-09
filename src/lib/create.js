@@ -12,7 +12,7 @@ export const create = (proName) => {
         {
             name: 'name',
             message: 'project name',
-            default: proName ? proName : 'express-project'
+            default: proName ? proName : 'einyun-vue3-project'
         },
         {
             name: 'version',
