@@ -1,0 +1,31 @@
+@import url("./reset.scss");
+@import url("../fonts/iconfont.css");
+
+#app {
+  height: 100vh;
+}
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.icon-20 {
+  width: 20px;
+  height: 20px;
+}

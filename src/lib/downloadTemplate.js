@@ -7,7 +7,7 @@ export const downloadTemplate = (gitPath = 'LQS5858/express-awilix-templates', n
     let loading = ora('downloading template ...');
     return new Promise((resolve, reject) => {
         loading.start()
-        download(gitPath, path.resolve(process.cwd(), `./${name}`), err => {
+        download(gitPath, path.resolve(process.cwd(), `./${name}`), { clone: true }, err => {
             if (err) {
                 logger.error(err)
                 loading.fail()

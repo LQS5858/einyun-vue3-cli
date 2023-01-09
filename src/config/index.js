@@ -1,1 +1,1 @@
-export const gitPath = 'LQS5858/express-awilix-templates'
+export const gitPath = 'direct:http://git.hypersmart.ltd/einyun/eip/web/x7-manage-vue3#ein-template-reactive'
