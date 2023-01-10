@@ -2,6 +2,8 @@
 
 ![npm](https://img.shields.io/badge/node-12.x.x-green)
 
+[英文](./README-en.md)|中文
+
 # node 环境
 
 > node 12.x.x

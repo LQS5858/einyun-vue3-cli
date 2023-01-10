@@ -1,6 +1,6 @@
 {
   "name": "einyun-vue3-cli",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "einyun脚手架",
   "main": "index.js",
   "scripts": {
@@ -17,9 +17,10 @@
     "type": "git"
   },
   "keywords": [
-    "express",
-    "awilix",
-    "nodejs"
+    "cli",
+    "vue3",
+    "Front-end",
+    "scaffolding"
   ],
   "author": "ricardo",
   "license": "ISC",
