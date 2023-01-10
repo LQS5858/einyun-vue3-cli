@@ -13,9 +13,9 @@ export const downloadTemplate = (gitPath = 'LQS5858/express-awilix-templates', n
                 loading.fail()
                 reject(err)
             } else {
-                logger.info('模板下载成功')
+                logger.info('Template download succeed')
                 loading.succeed()
-                resolve('模板下载成功')
+                resolve('Template download succeed')
             }
         })
     })

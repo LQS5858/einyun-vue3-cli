@@ -16,13 +16,12 @@ export const create = (proName) => {
         },
         {
             name: 'version',
-            message: '项目版本号',
+            message: 'project version',
             default: '1.0.0',
         }
     ]
     inquirer.prompt(questions).then(answer => {
         logger.info('answer', answer)
-        console.log('env', env);
         let { name } = answer || {}
         downloadTemplate(gitPath, name).then(() => {
             const filePath = path.resolve(process.cwd(), `./${name}/package.json`)
