@@ -1,10 +1,13 @@
 const inquirer = require('inquirer')
 import prompts from 'prompts'
+import { choices } from '../config'
 const { downloadTemplate } = require('./downloadTemplate')
-const { gitPathVue3PcReactive, version, gitVue3h5Reactive, gitPathVue3PcReactiveTs } = require('../config')
+const { version, } = require('../config')
 const path = require('path')
 const logger = require('./logger')
 const { updateJsonFile } = require('../utils/updateJson')
+
+
 
 
 export const create = (proName) => {
@@ -20,11 +23,7 @@ export const create = (proName) => {
             type: 'select',
             name: 'gitPath',
             message: 'Pick a gitpath',
-            choices: [
-                { title: 'vue3-reactive-pc-ts', description: 'This is pc reactive template', value: gitPathVue3PcReactiveTs },
-                { title: 'vue3-reactive-pc', description: 'This is pc reactive template', value: gitPathVue3PcReactive },
-                { title: 'vue3-h5', description: 'This is h5 template', value: gitVue3h5Reactive },
-            ],
+            choices,
             initial: 0
         },
         {
