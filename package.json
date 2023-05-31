@@ -1,6 +1,6 @@
 {
   "name": "einyun-vue3-cli",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "einyun脚手架",
   "main": "index.js",
   "scripts": {
@@ -43,6 +43,6 @@
     "@babel/preset-env": "^7.20.2"
   },
   "engines": {
-    "node": "12.16.0"
+    "node": ">=12.16.0"
   }
 }
